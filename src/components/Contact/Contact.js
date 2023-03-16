@@ -30,10 +30,11 @@ const Contact = () => {
             className='contact'
             direction='column'
             justify='center'
-            align='center'>
+            align='center'
+            margin={'20px'}>
 
             <Text
-                fontSize={25}
+                fontSize={20}
                 fontWeight={600}
                 margin={1}>
                 Puedes contactar conmigo a través de:
@@ -49,7 +50,7 @@ const Contact = () => {
                         <PopoverTrigger>
                             <Button
                                 boxShadow='5px 5px 5px 5px grey'
-                                margin={10}
+                                margin={5}
                                 colorScheme={'blue'}
                                 borderRadius={200}
                                 width={20}
@@ -75,17 +76,17 @@ const Contact = () => {
                                     bg='white'
                                     fontSize={20}
                                     alignSelf={'baseline'}
-                                    margin={1}
+                                    margin={2}
                                     borderRadius={20} />
 
                                 <PopoverHeader
-                                    fontSize={20}
+                                    fontSize={30}
                                     margin={1}>
                                     Teléfono:
                                 </PopoverHeader>
 
                                 <PopoverBody
-                                    fontSize={20}
+                                    fontSize={30}
                                     margin={1}>
                                     670 45 42 70
                                 </PopoverBody>
@@ -98,7 +99,7 @@ const Contact = () => {
                         onClick={() => window.open('https://www.facebook.com/daniel.ruiz.353803')}
                         colorScheme={'blue'}
                         borderRadius={200}
-                        margin={10}
+                        margin={5}
                         width={20}
                         height={20}
                         fontSize={40}
@@ -109,7 +110,7 @@ const Contact = () => {
                         onClick={() => window.open('https://www.instagram.com/daniel000ruiz/')}
                         colorScheme={'blue'}
                         borderRadius={200}
-                        margin={10}
+                        margin={5}
                         width={20}
                         height={20}
                         fontSize={40}
@@ -120,7 +121,7 @@ const Contact = () => {
                         onClick={() => window.open('https://www.linkedin.com/in/daniel-ruiz-maroto-56998236/')}
                         colorScheme={'blue'}
                         borderRadius={200}
-                        margin={10}
+                        margin={5}
                         width={20}
                         height={20}
                         fontSize={40}
@@ -130,7 +131,7 @@ const Contact = () => {
                         <PopoverTrigger>
                             <Button
                                 boxShadow='5px 5px 5px 5px grey'
-                                margin={10}
+                                margin={5}
                                 colorScheme={'blue'}
                                 borderRadius={200}
                                 width={20}
@@ -147,7 +148,7 @@ const Contact = () => {
                                 padding={5}
                                 borderColor='blue.500'
                                 border={'1px solid blue.500'}
-                                w={400}>
+                                w={450}>
 
                                 <PopoverCloseButton
 
@@ -156,17 +157,17 @@ const Contact = () => {
                                     bg='white'
                                     fontSize={30}
                                     alignSelf={'baseline'}
-                                    margin={1}
+                                    margin={2}
                                     borderRadius={20} />
 
                                 <PopoverHeader
-                                    fontSize={20}
+                                    fontSize={30}
                                     margin={1}>
                                     Mail:
                                 </PopoverHeader>
 
                                 <PopoverBody
-                                    fontSize={20}
+                                    fontSize={30}
                                     margin={1}>
                                     danielruimar@gmail.com
                                 </PopoverBody>
