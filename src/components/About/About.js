@@ -74,10 +74,10 @@ const About = () => {
                     padding={10}
                     borderRadius={20}
                     boxShadow='5px 5px 5px 5px grey'
-                >Durante veinte años he desarrollado mi actividad como operador de Cámara profesional
+                >Durante veinte años he desarrollado mi actividad como Operador de Cámara profesional
                     a nivel nacional e internacional para diferentes medios de comunicación.
                     <br></br><br></br>
-                    Al sufrir una lesión en el hombro que me tuvo fuera de juego bastante tiempo, con operación incluida, descubrí un nuevo mundo en el
+                    Al sufrir una lesión en el hombro que me tuvo fuera de juego bastante tiempo, con operación incluida, tuve tiempo durante mi baja para descubrir un nuevo mundo en el
                     desarrollo web.<br></br><br></br>Comencé a interesarme por pura curiosidad y acabé descubriendo que me encantaba.
                     <br></br><br></br>
                     Así que decidí reconvertirme y estudiar en serio esta matería. Y a día de hoy se ha convertido en mi nueva profesión y mi nueva
