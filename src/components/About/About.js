@@ -4,7 +4,7 @@ import { BsArrowRightShort } from 'react-icons/bs'
 
 const About = () => {
     return (
-        <Box 
+        <Box
             borderRadius={20}
             padding={5}
             width={700}
@@ -19,7 +19,6 @@ const About = () => {
                 alignContent={'center'}
                 margin={'20px auto'}
                 padding={5}>
-
                 <Text
                     margin={'10px auto'}
                     fontSize={30}
@@ -65,7 +64,6 @@ const About = () => {
                     >Localización: <span style={{ color: 'black', fontWeight: '700' }}>Madrid, España</span>
                     </Text>
                 </Flex>
-
                 <Text
                     margin={'20px 10px'}
                     fontSize={15}
@@ -83,10 +81,8 @@ const About = () => {
                     Así que decidí reconvertirme y estudiar en serio esta matería. Y a día de hoy se ha convertido en mi nueva profesión y mi nueva
                     gran pasión.
                 </Text>
-
             </Flex>
         </Box>
-
     )
 }
 

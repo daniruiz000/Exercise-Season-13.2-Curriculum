@@ -17,7 +17,7 @@ const ImageCard = ({ imageUrl, text, title, url }) => {
                         {text}
                     </Text>
                     <Text color='blue.600' fontSize='2xl'>
-                    <a href={url}>{url}</a>
+                    <p onClick={()=>window.open(url)} style={{cursor:'pointer'}}>{url}</p>
                     </Text>
                 </Stack>
             </CardBody>
