@@ -1,9 +1,10 @@
 
 import { Card, Stack, CardBody, Text, Image, Heading } from '@chakra-ui/react'
-const ImageCard = ({ imageUrl, text, title }) => {
+
+const ImageCard = ({ imageUrl, text, title, url }) => {
 
     return (
-        <Card maxW={280} margin={3} borderRadius={50}>
+        <Card maxW={280} margin={3} borderRadius={50} alignContent='center' justify={'center'}>
             <CardBody>
                 <Image
                     src={imageUrl}
@@ -16,7 +17,7 @@ const ImageCard = ({ imageUrl, text, title }) => {
                         {text}
                     </Text>
                     <Text color='blue.600' fontSize='2xl'>
-                    <a href="https://nodejs.org/">https://nodejs.org/</a>
+                    <a href={url}>{url}</a>
                     </Text>
                 </Stack>
             </CardBody>

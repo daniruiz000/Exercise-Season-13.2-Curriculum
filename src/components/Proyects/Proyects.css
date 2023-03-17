@@ -1,0 +1,8 @@
+.proyect{
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.proyect:hover{
+    background-color: rgb(29, 29, 195);
+}

@@ -29,7 +29,7 @@ const Proyects = () => {
                     fontWeight={600}
                 >Estos son algunos de mis mejores trabajos:</Text>
                 <Flex justify={'center'} wrap={'wrap'}  margin={'0 auto'}>
-                    <Box>
+                    <Box className='proyect'>
                         <Image
                             onClick={onOpen}
                             src="https://github.com/daniruiz000/RICK-MORTY/blob/main/RickMorty.png?raw=true"
@@ -59,7 +59,8 @@ const Proyects = () => {
                         </Modal>
                     </Box>
 
-                    <Box >
+                    <Box className='proyect'>
+                 
                         <Image
                             onClick={onOpen}
                             src="https://github.com/daniruiz000/Chuck-Norris/blob/main/Chuck.png?raw=true"
@@ -88,7 +89,8 @@ const Proyects = () => {
                         </Modal>
                     </Box>
 
-                    <Box >
+                    <Box className='proyect'>
+                   
                         <Image
                             onClick={onOpen}
                             src="https://github.com/daniruiz000/Adivina-tu-edad/blob/main/Adivina.png?raw=true"
@@ -117,7 +119,8 @@ const Proyects = () => {
                         </Modal>
                     </Box>
 
-                    <Box >
+                    <Box className='proyect'>
+                 
                         <Image
                             onClick={onOpen}
                             src="https://github.com/daniruiz000/Ejercicio-Sesion-5.2-Calculadora/blob/main/Captura%20de%20pantalla%202023-03-16%20221139.png?raw=true"
