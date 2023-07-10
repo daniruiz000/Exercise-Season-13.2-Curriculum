@@ -37,9 +37,11 @@ const Proyect = ({ project }) => {
       >
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>{project.title}</ModalHeader>
+          <ModalHeader fontSize={"40px"}>{project.title}</ModalHeader>
           <ModalCloseButton />
-          <ModalBody ref={initialRef}>{project.text}</ModalBody>
+          <ModalBody fontSize={"25px"} ref={initialRef}>
+            {project.text}
+          </ModalBody>
           <ModalFooter>
             <Button colorScheme="blue" mr={3} onClick={onClose}>
               Cerrar

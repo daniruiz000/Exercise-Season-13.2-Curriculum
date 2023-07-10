@@ -19,10 +19,10 @@ const Header = () => {
       <Spacer />
 
       <Flex direction="column" justify="center" align="center">
-        <Text fontSize={30} fontWeight={800}>
+        <Text fontSize={45} fontWeight={800}>
           Daniel Ruiz Maroto
         </Text>
-        <Text fontSize={20} fontWeight={300}>
+        <Text fontSize={35} fontWeight={300}>
           Desarrollador Web Full Stack
         </Text>
       </Flex>
