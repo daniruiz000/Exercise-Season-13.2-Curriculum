@@ -36,7 +36,7 @@ const Header = () => {
         w={170}
         h={200}
         src={process.env.PUBLIC_URL + "/1516641943147.jpg"}
-        alt="Captura de pantalla"
+        alt="Daniel Ruiz Maroto image"
       />
 
       <Spacer />

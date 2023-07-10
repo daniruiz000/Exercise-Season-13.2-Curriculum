@@ -48,7 +48,7 @@ const dataProject = [
     urlImg:
       process.env.PUBLIC_URL + "/Captura de pantalla 2023-07-09 215438.png",
     title: "TMDB-FILMS",
-    text: "App que emula la famosa página de cine y tv de TMDB y hace uso de su API pública. API creada con Node. además incluye un juego propio implentaqdo por mí.",
+    text: "App que emula la famosa página de cine y tv de TMDB y hace uso de su API pública. API creada con Node. además incluye un juego propio implentado por mí.",
     url: "https://bootcam-films.onrender.com/",
   },
 ];
