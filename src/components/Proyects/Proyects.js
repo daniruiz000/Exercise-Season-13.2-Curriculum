@@ -30,6 +30,13 @@ const dataProject = [
   },
   {
     id: 3,
+    urlImg: process.env.PUBLIC_URL + "/starwars.png",
+    title: "STARWARS",
+    text: "Wiki de la saga de STAR WARS realizada en JS plano, con SASS y Metodolgía BEN.",
+    url: "https://daniruiz000.github.io/Star-Wars/",
+  },
+  {
+    id: 4,
     urlImg:
       "https://github.com/daniruiz000/RICK-MORTY/blob/main/RickMorty.png?raw=true",
     title: "Rick and Morty",
@@ -37,14 +44,14 @@ const dataProject = [
     url: "https://daniruiz000.github.io/RICK-MORTY/",
   },
   {
-    id: 4,
+    id: 5,
     urlImg: process.env.PUBLIC_URL + "/laliga.png",
     title: "LaLiga",
     text: "App para la gestión y creación de ligas de equipos de fútbol. API creada con Node.",
     url: "https://laliga-front.onrender.com",
   },
   {
-    id: 5,
+    id: 6,
     urlImg:
       process.env.PUBLIC_URL + "/Captura de pantalla 2023-07-09 215438.png",
     title: "TMDB-FILMS",
@@ -52,7 +59,7 @@ const dataProject = [
     url: "https://bootcam-films.onrender.com/",
   },
   {
-    id: 6,
+    id: 7,
     urlImg: process.env.PUBLIC_URL + "/Pokemon.png",
     title: "POKEMON",
     text: "App que hace uso de la API pública de Pokemon, además incluye un juego propio implentado por mí.",
