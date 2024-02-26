@@ -95,7 +95,7 @@ const Proyects = () => {
         {dataProject
           .sort((a, b) => b.id - a.id)
           .map((project) => (
-            <Proyect project={project} />
+            <Proyect project={project} key={project.id} />
           ))}
       </Flex>
     </Flex>
