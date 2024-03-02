@@ -40,17 +40,18 @@ const About = () => {
           borderRadius={20}
           boxShadow="5px 5px 5px 5px grey"
         >
-          Durante veinte años he desarrollado mi actividad como Operador de Cámara profesional a nivel nacional e internacional para
-          diferentes medios de comunicación.
+          A lo largo de veinte años, he desempeñado mi labor como Operador de Cámara profesional tanto a nivel nacional como internacional,
+          colaborando con diversos medios de comunicación.
           <br></br>
           <br></br>
-          Al sufrir una lesión en el hombro que me tuvo fuera de juego bastante tiempo, con operación incluida, tuve tiempo durante mi baja
-          para descubrir un nuevo mundo en el desarrollo web.<br></br>
-          <br></br>Comencé a interesarme por pura curiosidad y acabé descubriendo que me encantaba.
+          Sin embargo, mi trayectoria dio un giro significativo cuando una lesión en el hombro me apartó temporalmente de mi profesión,
+          incluso requiriendo una intervención quirúrgica. Durante mi período de convalecencia, tuve la oportunidad de explorar un nuevo
+          horizonte: el desarrollo web.
           <br></br>
           <br></br>
-          Así que decidí reconvertirme y estudiar en serio esta matería. Y a día de hoy se ha convertido en mi nueva profesión y mi nueva
-          gran pasión.
+          Lo que inicialmente despertó mi interés por simple curiosidad se transformó en una auténtica pasión. Con determinación, opté por
+          una reconversión profesional, comprometiéndome seriamente a estudiar esta disciplina. Hoy en día, el desarrollo web no solo
+          constituye mi nueva profesión, sino también mi nueva gran pasión.
         </Text>
       </Flex>
     </Box>
